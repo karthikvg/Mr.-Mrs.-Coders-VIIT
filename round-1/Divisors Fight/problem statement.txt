@@ -1,0 +1,32 @@
+Problem Statement
+
+Once upon a time there were two magicians who used fight with each other frequently. In a fight each of them will attack once with their magic powers . The winner of that fight will be decided by the maximum intensity in their powers. If they have same intensity then its a tie.
+
+The intensity of an attack will be calculated as the number of divisors it has. You will be given the power of each attacks of A and B and you have to print the winner of the fight.
+
+Input:
+
+First line of Input consists of the number of attacks(n) both have made.
+
+Next 'n' lines consists of two integers denoting power of A and B respectively.
+
+Ouput
+
+Print the n lines denoting the winner of the each fight in each line. If its a tie print "Tie".
+
+Constraints:
+
+1 ≤ n ≤ 10^6
+0 ≤ A, B ≤ 10^5
+
+Sample Input1:
+
+3
+2 1
+5 10
+11 13
+Sample Output1:
+
+A
+B
+Tie
