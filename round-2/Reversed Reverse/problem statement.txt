@@ -1,0 +1,22 @@
+Problem statement:
+Your task is simple. You are given T test cases and for each test case m and n integers are given.Now you have to print the reversed sum of adding of reversed m and n. Here you should remove leading zeros if any while printing the output.
+Constraints: 
+1 ≤ T ≤ 10^6
+0 ≤ m, n ≤ 10^7
+
+
+
+Example:
+
+Input:
+1
+24 1
+
+Output:
+34
+
+Explanation:
+When m is reversed m=42
+When n is reversed n=1
+Adding m and n gives 43
+Now reverse the obtained sum i.e. 34 which is the answer.
