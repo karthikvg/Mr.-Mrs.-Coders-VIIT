@@ -1,0 +1,62 @@
+Problem Statement:
+
+Barry Allen is a Detective. He is observing terrorist activities in his city from few days. He found that terrorists are sending some encrypted messages to thier other groups and receiving from them in the same way. Somehow he hacked their communication system and got those encrypted messages. Now he wanted to decrypt them.
+
+After some observations he is sure that terrorists used ceaser cipher technique to encrypt the messages and "hijack" is the only word which is common in all the decrypted messages. Using this as a clue we have to find the key used by the terrorists for encryption of the given message.
+
+Ceaser Cipher is a technique in which every character in the string is right shifted by a certain fixed value(0-25). That fixed valueis called as its key. For example if string is "abcd" and key is 3 then it will be encrypted as "defg"(because 'a'+3='d', 'b'+3='e', 'c'+3='f','d'+3='g').Similarly the string "xyza" with key 4 will be encrypted as "bcde" and so on...
+
+Barry asks your help to find the key used by terrorists.
+
+Note, it is assured that only one possibility of hijack will be there in the given string.
+
+Input
+
+Input consists of two lines.
+
+First line contains integer 'n' denoting the number of words in the encrypted message.
+
+Second line is the encrypted message with 'n' words.
+
+Output
+
+Print the key used by the terrorists .
+
+Sample Input1:
+
+
+
+4
+
+ck muz yaiikyy nopgiq
+
+Sample Output1:
+
+6
+
+Sample Input2:
+
+5
+
+lddshmf zs ghizbj sghr rzstqczx
+
+Sample Output2:
+
+25
+
+Explanation 1:
+
+At key 6 the given encrypted message will be decrypted as the following
+
+"we got success hijack"
+
+So output must be 6.
+
+Explanation 2:
+
+Using key 25 we get the following decrypted message
+
+"meeting at hijack this saturday"
+
+so print 25.
+

@@ -1,0 +1,15 @@
+You are given an array of length n with only 1's and 0's. You are given q queries and for each query line given L and R. Now for each query, print the number of 1's present in between the given range inclusive of L and R.
+
+Input:
+First line contains n denoting the size of array.
+Second line contains the n space seperated array elements.
+Third line contains q denoting the number of queries.
+Next q lines contains two space seperated integers denoting L and R respectively.
+Note: Here array is 1-indexed
+Output:
+Print q lines denoting the answer for each query.
+
+Constraints: 
+0<n<10001
+0<q<10001
+0<L,R<10001

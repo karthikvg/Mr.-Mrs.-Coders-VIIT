@@ -1,0 +1,20 @@
+CakeWalk:
+
+Your task is simple. You are given T test cases and each test cases has a string and a integer k.You need to reverse the string and print the k th character in the string.
+see sample input and output for better understanding.
+
+Constraints: 
+1 ≤ T ≤ 10
+1≤len(str) ,k≤ 10^4
+
+Example:
+Input:
+1
+vignan 2
+
+Output:
+a
+
+Explanation:
+When string is reversed "nangiv"
+and 2nd character in string is 'a'

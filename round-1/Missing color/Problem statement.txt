@@ -1,0 +1,7 @@
+Cake walk:
+Most happiest job in this world is painting. It is not only happiest job but also a creative one. One of the important fact in painting is with the combination of RED, BLUE, GREEN we can create any color in this universe. Your task is simple we give two colors you need to find the missing color in red, blue, green.
+
+Input:
+First and only line in the input contains two different colors {Red, Blue, Green}
+Output:
+You need to print the missing color for the given inputs(i.e Red,Blue,Green)
