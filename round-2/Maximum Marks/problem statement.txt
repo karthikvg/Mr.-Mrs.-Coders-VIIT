@@ -1,0 +1,34 @@
+Mid exams are on their way to frustrate the students as well as faculty ;P. The faculty has a lot of tasks to complete they need to design a question paper, Evaluate the answer scripts and they have to post the results but the most irritating task is finding the highest mark of a subject.
+
+Now the faculty came up with an idea to make this task easy. Now they will only upload marks of each subject in the form of 2d array and you need to report the highest mark in each subject. If the student is absent for the exam then marks will be -1.
+
+Please refer sample test cases for better understanding :-)
+
+Input:
+The first line of input consists of two space-separated integers N, M representing no.of students and no.of subjects
+The next N lines consist of M space separated integers Ai,j representing i'th student marks in j'th subject.
+
+Output:
+Print space separated subject's highest mark in in a single line
+
+Constraints:
+1≤ N, M ≤100
+0≤ a[i][j] ≤100
+
+Sample Output1:
+2 2
+1 2
+4 3
+Sample Output1:
+4 3
+
+Sample Output2
+3 3
+1 2 3
+1 2 3
+3 4 9
+Sample Output2:
+3 4 9
+
+
+

@@ -1,0 +1,15 @@
+After Manushi Chillar becoming the miss world 2017 now its time to find the Mrs.computer :P
+
+For this we evaluated skill of different students and you have to write a code to find who will be our mrs.computer based on their evaluated skill
+
+Please refer sample testcases for better understanding of problem
+
+Input:
+The first line of input consist of an integer which represents no.of contestants for Ms.computer title The following n line consist of name and their evaluated skill (it is guranteed that name and evaluated skill always unique ).
+
+Output:
+You need to output the name of contestant who gonna win the Mrs.computer title
+
+Constarints: 1<=n<=5 1<=|s|<=10 1<=skill<=100
+
+Where |s| stands for length of the string

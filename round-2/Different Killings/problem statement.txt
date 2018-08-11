@@ -1,0 +1,31 @@
+You are given a n*n chessboard in the form of a matrix which consists of blacks and whites(soldiers).Blacks will move in down manner whereas Whites in up manner(explained in sample test case).So your job is to find the number of killings possible in that chessboard. If there is no killings print 0. For Ex: Consider n=4 Chessboard as
+
+_ B _ _
+
+W _ W _
+
+_ B _ _
+
+W _ W _
+
+Explanation: In this consider first Black soldier(1,2): It can kill two white soldiers since it can move to (2,1) and (2,3)
+
+Consider white soldier in (2,1): It can kill one Black soldier present in (1,2)
+
+Similarly next White(2,3) can kill Black(1,2), now the same format appears again so that B(3,2) kills two whites W(4,1), W(4,3) and those two whites can kill B(3,2) once individually. So at last answer will be 2+1+1+2+1+1=8
+
+Note: Please note that black moves towards last row(ie downwards) and white moves towards first row(ie upwards). So B(3,2) cannot kill W(2,1) and W(2,3).
+
+Inputs:
+
+First line of input consists of a number 'n' denoting the size of chessboard i.e nxn.
+
+Next n lines consists of a string(contains only 'W', '_', 'B' without spaces) denoting the position of each row in chessboard.
+
+Output:
+
+Print the number of killings possible in the given chess board.
+
+Constraints:
+
+1<N<1000
