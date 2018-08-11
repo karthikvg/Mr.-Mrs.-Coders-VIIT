@@ -1,0 +1,4 @@
+Sonu is a math guy. He always loves Mathematics. He used to give some tasks to his friends and tries to increase their math ability too. This time he gave a simple task to you :)
+
+The task is,he will give you a number and you have to find the number of even divisors of it.
+

@@ -1,0 +1,23 @@
+Aliens successfully invaded our earth. They fully converted the world according to their convience This became serious problem to man kind. They also captured you and they assigned a task which you need to complete in time or else they warned to destroy our planet
+
+Task: They will give a city name and you need to decrypt its catagory(a number) some examples are given here:
+HYDERBAD------->7
+WARANGAL------->4
+BANGALORE------>6
+MUMBAI--------->3
+BHOPAL--------->5
+DELHI---------->1
+KANPUR--------->3
+GALIWOR-------->3
+
+CLUE: you need to time travel :P
+
+Input:
+The first and only line of input contains the String S. The String shall consist of uppercase English alphabets only.
+
+Ouput:
+Print the answer in a single line
+
+
+Constraints
+1≤|S|≤100

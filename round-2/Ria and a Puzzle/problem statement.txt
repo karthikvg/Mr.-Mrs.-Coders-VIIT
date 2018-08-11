@@ -1,0 +1,28 @@
+Problem statement:
+Ria is first year girl she came up with a very wiered problem of counting she counts from 1 to n using the fingers of her left hand as follows. She starts by calling her thumb 1, the first finger 2, middle finger 3, ring finger 4, and little finger 5. Then she reverses direction, calling the ring finger 6, middle finger 7, the first finger 8, and her thumb 9, after which she calls her first finger 10, and so on. If she continues to count in this manner upto N, on which finger will she stop?
+
+Input:
+
+The first line consists of an integer T denoting the number of test cases.
+Each testcase consists of +ve integer N
+
+Output:
+
+Output letter of first alphabet of the finger where the count ends ie( 'T','F','M','R','L' ) for thumb,first,middle,ring,little fingers respectively
+
+
+
+Constraints:
+1≤T≤10
+1≤N≤10^5
+
+Sample Input1:
+3
+3
+11
+20
+
+Sample Output1:
+M
+M
+R
